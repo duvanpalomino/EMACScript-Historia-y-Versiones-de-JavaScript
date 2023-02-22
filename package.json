@@ -1,0 +1,16 @@
+{
+  "name": "emacscript_historia_y_versiones_de_javascript",
+  "version": "1.0.0",
+  "description": "Historia de JavaScrip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "historiajavascript"
+  ],
+  "author": "Duvan Palomino <duvanpalomino@gmail.com>",
+  "license": "MIT"
+}
