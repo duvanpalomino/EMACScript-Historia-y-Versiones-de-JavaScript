@@ -61,7 +61,7 @@ class user{
         return 'hello';
     }
     greeting(){
-        return `${this.speak()} ${this.name}`;
+        return `${this.speak()} ${this.name} ${this.age}`;
     }
 
     get uAge(){
@@ -74,6 +74,7 @@ class user{
 };
 
 const bebeloper1 = new user('David', 15);
+console.log(bebeloper1.greeting());
 console.log(bebeloper1.uAge);
 console.log(bebeloper1.uAge = 20);
 

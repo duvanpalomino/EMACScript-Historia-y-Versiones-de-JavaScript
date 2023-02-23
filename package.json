@@ -12,5 +12,6 @@
     "historiajavascript"
   ],
   "author": "Duvan Palomino <duvanpalomino@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
