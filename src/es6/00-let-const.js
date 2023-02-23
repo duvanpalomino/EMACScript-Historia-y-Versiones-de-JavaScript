@@ -23,3 +23,16 @@ const fruits = () => {
 }
 
 fruits();
+
+const pi = 3.1416;
+
+var nameVar = 'soy var';
+let nameLet = 'soy let';
+const nameConst = 'soy const';
+
+var nameVar = 'var soy';
+console.log(nameVar);
+
+let nameLet ='let soy';
+
+const nameConst = 'const soy';
