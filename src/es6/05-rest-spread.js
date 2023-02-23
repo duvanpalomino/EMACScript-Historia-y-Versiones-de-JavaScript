@@ -33,3 +33,25 @@ function sum(num, ...values) {
 };
 
 sum(1, 1, 2, 3);
+
+//reto
+
+let json1 = {
+    name: 'Mr. Michi',
+    food: 'Pescado'
+}
+
+let json2 = {
+    age: 12,
+    color: 'Blanco'
+}
+
+function solution(json1, json2){
+    let json = {...json1, ...json2};
+    console.log(json);
+};
+
+solution({
+    name: "Bigotes",
+    food: "Pollito"
+});
